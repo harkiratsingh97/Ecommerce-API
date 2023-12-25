@@ -28,8 +28,10 @@ Description: Update the quantity of a specific product in the database and the q
 Getting Started
 Clone the Repository:
 
-git clone https://github.com/your-username/ecom-api.git
-cd ecom-api
+git clone https://github.com/harkiratsingh97/Ecommerce-API.git
+
+cd Ecommerce-API
+
 Install Dependencies:
 
 npm install
