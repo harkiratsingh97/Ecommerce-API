@@ -51,6 +51,7 @@ module.exports.updateQuantity = async function (req, res) {
 			$inc: { quantity: req.query.number },
 		});
 		if (updatedProduct) {
+			updatedProduct = await Product.findById(req.params.id);
 			return res.status(200).json({
 				data: { product: updatedProduct },
 				message: "updated successfully",
